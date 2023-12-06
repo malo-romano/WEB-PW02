@@ -1,4 +1,3 @@
-```markdown
 # Projet Vinyl Groovy 🎶
 
 Bienvenue dans le monde du groove et du vinyle ! Ce projet te transporte dans une épopée musicale où tu peux jongler avec des vinyles et des artistes dans un tourbillon de BPM et de rythmes envoûtants.
