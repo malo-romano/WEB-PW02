@@ -16,6 +16,9 @@ Pour donner le coup d'envoi à cette aventure musicale, exécute simplement la c
 docker-compose up
 ```
 
+Rends toi ensuite sur
+[http://localhost:8080/](http://localhost:8080/)
+
 Cela lancera l'orchestre, laissant les vinyles et les artistes prendre vie dans une base de données fantastique.
 
 ### Explorer l'Univers Musical
