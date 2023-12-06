@@ -25,10 +25,3 @@ Une fois que la symphonie est en marche, plonge dans la base de données pour d�
 ## Remarque Importante 🎵
 
 N'oublie pas de prendre le temps d'apprécier la musique en explorant ce projet. Que le groove soit avec toi !
-
----
-
-*Remarque : Ce projet est conçu pour des fins ludiques et d'exploration. Le plaisir de la musique est au cœur de cette expérience.* 🎧🎵
-```
-
-Ce README offre une approche ludique et colorée pour présenter le projet Vinyl Groovy. Il met l'accent sur l'exploration musicale, tout en fournissant des instructions simples pour lancer le projet et découvrir les vinyles et les artistes. Amuse-toi bien avec la musique ! 🎵🎉
