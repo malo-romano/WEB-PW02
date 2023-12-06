@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  db:
+    build:
+      context: .
+      dockerfile: dockerfile_db
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+  app:
+    build:
+      context: .
+      dockerfile: dockerfile_app
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src:/var/www/html
+    depends_on:
+      - db
