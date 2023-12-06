@@ -1,17 +1,17 @@
 -- Création de la table pour les artistes
 CREATE TABLE Artistes (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nom_scene VARCHAR(100),
-    pays_origine VARCHAR(50)
+    nom_scene VARCHAR(100) NOT NULL,
+    pays_origine VARCHAR(50) NOT NULL
 );
 
 -- Création de la table pour les vinyles
 CREATE TABLE Vinyles (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nom VARCHAR(100),
+    nom VARCHAR(100) NOT NULL,
     bpm INT,
     annee_sortie INT,
-    artiste_id INT,
+    artiste_id INT NOT NULL,
     FOREIGN KEY (artiste_id) REFERENCES Artistes(id)
 );
 
