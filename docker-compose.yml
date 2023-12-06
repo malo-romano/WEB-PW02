@@ -8,6 +8,9 @@ services:
       - "3306:3306"
     environment:
       - MYSQL_ROOT_PASSWORD=root
+    networks:                 # Définition du réseau pour le service db
+      - my_network
+
   app:
     build:
       context: .
@@ -18,3 +21,9 @@ services:
       - ./src:/var/www/html
     depends_on:
       - db
+    networks:                 # Définition du réseau pour le service app
+      - my_network
+
+networks:
+  my_network:                 # Définition du réseau
+    driver: bridge             # Utilisation du driver bridge (par défaut)
